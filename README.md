@@ -46,7 +46,7 @@ TEST SUITE: None
 NOTES:
 ---------------------------------------------------------
 ```
-Проверяем деплой:
+Проверяем деплой:  
 App1:  
 ```
 [root@skillpropilserv-01 kube-10]# kubectl get pod -n app1
