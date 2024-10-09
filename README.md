@@ -13,6 +13,7 @@ kubectl create namespace app1
 kubectl create namespace app2
 ```
 Далее создаем приложения  
+
 App1:  
 ```
 helm install sp-app1 --namespace app1 --set image.tag="1.18.0" --set replicaCount=2 sp-chart
